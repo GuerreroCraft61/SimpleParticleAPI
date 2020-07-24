@@ -1,6 +1,10 @@
 # SimpleParticleAPI
+## For server owners
+Add last version jar to you plugin folder
+## For devs
+Javadoc: https://javadoc.jitpack.io/com/github/GuerreroCraft61/SimpleParticleAPI/latest/javadoc/
 
-To use it, add this to you pom.xml
+To use it, add this to you pom.xml (Maven)
 >
     <repositories>
         <!--Others repositories... -->
@@ -16,9 +20,17 @@ To use it, add this to you pom.xml
         <dependency>
             <groupId>com.github.GuerreroCraft61</groupId>
             <artifactId>SimpleParticleAPI</artifactId>
-            <version>latest</version>
+            <version>Last version</version>
             <scope>provided</scope>
         </dependency>
         <!--Others dependencies... -->
     </dependencies>
 Last version: ![Release](https://jitpack.io/v/GuerreroCraft61/SimpleParticleAPI.svg)
+
+## Todo List:
+- [ ] PointParticle
+- [x] LineParticle
+- [ ] CicleParticle
+- [ ] MoreEffects...
+- [ ] Wiki
+- [x] Javadoc
